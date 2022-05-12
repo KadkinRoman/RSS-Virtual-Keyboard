@@ -1,0 +1,21 @@
+{
+    "parser": "@babel/eslint-parser",
+    "rules":{
+        "no-console": "off",
+        "no-alert": "off",
+        "linebreak-style": ["error", "windows"],
+        "no-underscore-dangle": "off",
+        "camelcase": "off",
+        "no-param-reassign": "off",
+        "no-unused-expressions": "off"
+    },
+    "extends": ["airbnb"],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals": {
+        "document": false
+    }
+
+}
